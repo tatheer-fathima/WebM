@@ -35,23 +35,32 @@ const AboutPage: React.FC = () => {
                 <Bookmark className="w-16 h-16 text-primary-600" />
               </div>
               <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">Our Story</h2>
-              <div className="prose prose-lg dark:prose-invert max-w-none">
-                <p>
-                  WebM was born out of a simple frustration: the existing bookmark tools weren't meeting our needs. As avid web users, we found ourselves constantly struggling to organize and find our saved sites across different browsers and devices.
-                </p>
-                <p>
-                  In 2025, a small team of web enthusiasts came together with a mission to create a better solution. We wanted something that was not only powerful and feature-rich but also beautiful and intuitive to use.
-                </p>
-                <p>
-                  After months of development and testing, WebM was launched with a simple goal: to be the last bookmark manager you'll ever need.
-                </p>
-                <p>
-                  Today, WebM is used by thousands of people who want a better way to save, organize, and access their favorite parts of the web. From students to professionals, from casual browsers to power users - WebM is designed for everyone who values an organized digital life.
-                </p>
-                <p>
-                  We're constantly improving WebM with new features and refinements based on user feedback, while staying true to our core principles of simplicity, privacy, and beautiful design.
-                </p>
-              </div>
+              <div className="grid grid-cols-5 sm:grid-cols-5 lg:grid-cols-1 gap-5 p-10">
+  <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-5 rounded-xl shadow-md">
+    <h3 className="text-xl font-semibold mb-2">📌 Scattered Bookmarks</h3>
+    <p className="text-base"> WebM was born out of a simple frustration: the existing bookmark tools weren't meeting our needs.
+      As avid web users, we constantly struggled to organize and find our saved sites across different
+      browsers and devices.</p>
+  </div>
+
+  <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-5 rounded-xl shadow-md">
+    <h3 className="text-xl font-semibold mb-2">🧠 No Smart Organization</h3>
+    <p className="text-base">Traditional tools lacked proper folders, tags, or easy filtering.</p>
+  </div>
+
+  <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-5 rounded-xl shadow-md">
+    <h3 className="text-xl font-semibold mb-2">🌐 One Dashboard</h3>
+    <p className="text-base">From students to professionals, from casual browsers to power users – WebM is
+    designed for everyone who values an organized digital life.</p>
+  </div>
+
+  <div className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-5 rounded-xl shadow-md">
+    <h3 className="text-xl font-semibold mb-2">⚡ Fast, Anywhere</h3>
+    <p className="text-base">Access your saved sites on any device, anytime.</p>
+  </div>
+
+</div>
+
             </motion.div>
           </div>
         </div>
@@ -126,22 +135,27 @@ const AboutPage: React.FC = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             {[
               {
-                name: 'Alex Johnson',
-                role: 'Founder & CEO',
-                image: 'https://drive.google.com/file/d/1ytblcqDjoSspFr9U544aOXAtAwANEJzN/view?usp=sharing'
+                name: 'Tatheer Fathima',
+                role: 'Founder & Backend Developer',
+                image: '/images/tatheer.png'
               },
               {
-                name: 'Sarah Chen',
-                role: 'Lead Developer',
-                image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600'
+                name: 'Munasa Priyanka',
+                role: 'UX Designer & Frontend Developer',
+                image: 'images/priyanka_img.png'
               },
               {
-                name: 'Michael Rodriguez',
-                role: 'UX Designer',
-                image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600'
+                name: 'Potnuru Homalika',
+                role: 'Project Manager',
+                image: 'images/homalika_img.png'
+              },
+              {
+                name: 'Gojja Kavya Sri',
+                role: 'Quality Assurance Engineer',
+                image: 'images/kavya_img.png'
               }
             ].map((member, index) => (
               <motion.div 
