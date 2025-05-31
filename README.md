@@ -1,6 +1,6 @@
 # 🌐 WebM - Modern Web Bookmark Manager
 
-📣 **WebM was born out of a simple frustration:**  
+📣 **WebM was built of a simple frustration:**  
 The existing bookmark tools weren't meeting our needs. As avid web users, we constantly struggled to organize and find our saved sites across different browsers and devices.
 
 **WebM** is a simple yet powerful web application designed to help you **save, organize, and access** your favorite websites from anywhere. Built with a clean and intuitive interface, WebM is perfect for users who want to manage their digital bookmarks efficiently across devices.
